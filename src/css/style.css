@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/*------------------------------------------*/
+
+
+
+body{
+    background-color: #000000;
+    overflow: hidden;
+
+}
+
+main::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 80vw;
+    
+    background: linear-gradient(-233deg, #00000077 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
+
+}
+
+main .personagem {
+    display: none;
+    height: 100vh;
+}
+
+main .personagem.selecionado{
+    display: block;
+}
+
+main .personagem .imagem {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+
+.conteudo {
+    
+    position: absolute;
+    top: 0;
+    left: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    min-height: 100vh;
+    max-width: 500px;
+    z-index: 1;
+
+}
+
+.conteudo .nome-personagem{
+
+    color: #ffffff;
+    font-size: 48px;
+    font-family: 'Croissant One';
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-shadow: #000000 3px 3px 3px;
+}
+
+.conteudo .descricao{
+    color: #ffffff;
+    font-family: "Inclusive Sans";
+    line-height: 24px;
+    text-indent: 15px;
+    text-align: justify;
+    text-shadow: #000000 2px 2px 2px;
+    
+}
+
+h3{
+    color: #ffffff;
+    font-family: 'Croissant One';
+    margin-top: 20px;
+
+}
+
+.conteudo .logo{
+    background-image: url(../imagens/one_piece_logo.png);
+    width: 300px;
+    height: 170px;
+    background-size: cover;
+    margin-bottom: 35px;
+
+}
+
+.botoes{
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 120px;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.botoes button{
+    border: none;
+    background: #000000;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+
+.botoes li img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    z-index: -1;
+    
+
+}
+
+.botoes .botao.selecionado{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 15px  rgb(255, 255, 255);
+    
+}
+
+
+
+/*BOTÕES dos personagens*/
+
+button#luffy  {
+    border: solid rgb(216, 26, 26) 1px;
+    
+
+}
+
+button#usopp  {
+    border: solid rgb(160, 192, 18) 1px;
+}
+button#nami  {
+    border: solid rgb(255, 196, 0) 1px;
+}
+button#zoro  {
+    border: solid rgb(15, 211, 97) 1px;
+}
+button#sanji  {
+    border: solid rgb(16, 18, 161) 1px;
+}
+button#chopper  {
+    border: solid rgb(224, 13, 196) 1px;
+}
+button#robin  {
+    border: solid rgb(130, 21, 173) 1px;
+}
+button#franky {
+    border: solid rgb(0, 219, 248) 1px;
+}
+
+button#brook {
+    border: solid rgb(139, 139, 139) 1px;
+}
+
+/*LED DOS BOTÕES - HOVER*/
+
+button#luffy:hover  {
+    border: solid rgb(216, 26, 26) 3px;
+    box-shadow: 0px 0px 15px  rgb(216, 26, 26);
+}
+
+button#usopp:hover  {
+    border: solid rgb(160, 192, 18) 3px;
+    box-shadow: 0px 0px 15px  rgb(160, 192, 18);
+}
+button#nami:hover  {
+    border: solid rgb(255, 196, 0) 3px;
+    box-shadow: 0px 0px 15px  rgb(255, 196, 0);
+}
+button#zoro:hover  {
+    border: solid rgb(15, 211, 97) 3px;
+    box-shadow: 0px 0px 15px  rgb(15, 211, 97);
+}
+button#sanji:hover  {
+    border: solid rgb(16, 18, 161) 3px;
+    box-shadow: 0px 0px 15px  rgb(16, 18, 161);
+}
+button#chopper:hover  {
+    border: solid rgb(224, 13, 196) 3px;
+    box-shadow: 0px 0px 15px  rgb(224, 13, 196);
+}
+button#robin:hover  {
+    border: solid rgb(130, 21, 173) 3px;
+    box-shadow: 0px 0px 15px  rgb(130, 21, 173);
+}
+button#franky:hover {
+    border: solid rgb(0, 219, 248) 3px;
+    box-shadow: 0px 0px 15px  rgb(0, 219, 248);
+}
+
+button#brook:hover {
+    border: solid rgb(139, 139, 139) 3px;
+    box-shadow: 0px 0px 15px  rgb(139, 139, 139);
+}
+
+    
