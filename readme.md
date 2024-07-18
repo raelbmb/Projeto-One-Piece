@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Este projeto é fãs de One Piece, um dos animes mais populares do mundo, mostrando algumas informações dos personagens, como história, características e recompensas por suas cabeças, dentro da história do anime.
+Este projeto é para fãs de One Piece, um dos animes mais populares e amados do mundo, o projeto tem a interatividade de mostrar algumas informações e características de cada um dos personagens principais que são parte de uma tripulação pirata, como história, e recompensas por suas cabeças, dentro da história do anime.
 
 
 
